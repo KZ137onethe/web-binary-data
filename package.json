@@ -1,0 +1,22 @@
+{
+  "name": "web-binary-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:codec": "npx browser-sync \"codec\" -w"
+  },
+  "keywords": [
+    "web",
+    "binary"
+  ],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "22.20.0",
+    "pnpm": "9.15.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
